@@ -39,7 +39,7 @@ def printer(attendees)
 attendees.each do |speaker|
 speakarray = speaker.split
   new_array = batch_badge_creator(speakarray)
-  puts new_array_join
+  puts new_array.join
 end
 
 end  
