@@ -36,7 +36,7 @@ end
 
 
 def printer(speak)
-puts batch_badge_creator(speak)
+puts batch_badge_creator()
 puts assign_rooms(speak)
 end
 #end 
