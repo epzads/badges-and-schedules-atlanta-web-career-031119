@@ -19,13 +19,13 @@ end
 #def assign_rooms(rooms)
 def assign_rooms(speakers)
 
-count = 2 
+count = 0  
 room_array = []
 
 speakers.each do |speaker|
-
-   room_array << "Hello, #{speaker}! You'll be assigned to room #{count}!"
 count += 1
+   room_array << "Hello, #{speaker}! You'll be assigned to room #{count}!"
+
 end
 
   return room_array
