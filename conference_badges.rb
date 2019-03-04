@@ -41,6 +41,9 @@ speakarray = speaker.split
   new_array = batch_badge_creator(speakarray)
   final_string = new_array.join
   puts final_string
+  room_array = assign_rooms(speakarray)
+  room_string = room_array.join
+  puts room_string 
 end
 
 end  
