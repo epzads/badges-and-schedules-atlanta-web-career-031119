@@ -17,15 +17,15 @@ return new_array
 end 
 
 #def assign_rooms(rooms)
-def assign_rooms(speakers)
+def assign_rooms(speakers,count = 1 )
 
-count = 0  
+#count = 0  
 room_array = []
 
 speakers.each do |speaker|
-count += 1
-   room_array << "Hello, #{speaker}! You'll be assigned to room #{count}!"
 
+   room_array << "Hello, #{speaker}! You'll be assigned to room #{count}!"
+count += 1
 end
 
   return room_array
@@ -42,11 +42,14 @@ speakarray = speaker.split
   final_string = new_array.join
   puts final_string
 end 
+ count = 1 
   attendees.each do |speaker|
  speakarray = speaker.split
-  room_array = assign_rooms(speakarray)
+ 
+  room_array = assign_rooms(speakarray,count)
   room_string = room_array.join
-  puts room_string 
+  puts room_string
+  count + = 1 
 end
 
 end  
