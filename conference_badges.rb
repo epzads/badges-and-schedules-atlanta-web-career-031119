@@ -19,7 +19,7 @@ end
 #def assign_rooms(rooms)
 def assign_rooms(speakers)
 
-count = 1
+count = 2 
 room_array = []
 
 speakers.each do |speaker|
