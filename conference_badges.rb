@@ -49,7 +49,7 @@ end
   room_array = assign_rooms(speakarray,count)
   room_string = room_array.join
   puts room_string
-  count + = 1 
+  count += 1 
 end
 
 end  
