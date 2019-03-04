@@ -33,12 +33,15 @@ end
 
 
 
+ 
+def printer(attendees)
 
-
-def printer(speak)
-  #speak.each do |hello|
-puts batch_badge_creator(speak)
-puts assign_rooms(speak)
-#end
+attendees.each do |speaker|
+speakarray = speaker.split
+  puts batch_badge_creator(speakarray)
+  
 end
+
+end  
+
 #end 
