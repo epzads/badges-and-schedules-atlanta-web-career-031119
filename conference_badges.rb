@@ -36,9 +36,9 @@ end
 
 
 def printer(speak)
-  speak.each do |hello|
-puts batch_badge_creator(hello)
-puts assign_rooms(hello)
+  #speak.each do |hello|
+puts batch_badge_creator(speak)
+puts assign_rooms(speak)
 end
 end
 #end 
